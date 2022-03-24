@@ -1,0 +1,104 @@
+/* General Rules */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: KumbhSansReg;
+}
+a {
+  text-decoration: none;
+}
+a {
+  color: #000;
+}
+a:hover {
+  color: blue;
+}
+/* font face rules */
+@font-face {
+  font-family: KumbhSansReg;
+  src: url("../fonts/KumbhSans-Regular.ttf");
+}
+@font-face {
+  font-family: KumbhSansBold;
+  src: url("../fonts/KumbhSans-Bold.ttf");
+}
+/* container */
+.container {
+  background-color: #fafafa;
+  width: 100%;
+  padding: 30px 10% 0px 10%;
+  margin-bottom: 50px;
+}
+.top-header {
+  display: flex;
+  justify-content: space-between;
+}
+.main-nav {
+  /* background-color: #000; */
+  color: #fff;
+  padding: 10px 6px;
+}
+.main-nav .nav-item {
+  color: #333950;
+  margin-left: 15px;
+}
+.main-nav .nav-item:hover {
+  color: #5175ff;
+}
+.btn {
+  background-color: #5175ff;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #91a1db;
+  cursor: pointer;
+}
+/* main nav */
+
+/*header*/
+.header {
+  display: flex;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-content .main-heading {
+  font-family: KumbhSansBold;
+  font-size: 56px;
+  color: #333950;
+  margin-bottom: 20px;
+}
+.header-content .main-txt {
+  font-family: KumbhSansReg;
+  font-size: 18px;
+  color: #747b95;
+  margin-bottom: 30px;
+  line-height: 2;
+}
+.header-content .start-btn {
+  /*background-color: #5175ff;
+  color: #fff;*/
+  text-transform: capitalize;
+  font-family: KumbhSansBold;
+  font-size: 16px;
+  border: none;
+  border-radius: 28px;
+  padding: 18px 40px;
+  width: 220px;
+}
+/*plans*/
+.plans {
+  background-color: #eee;
+  padding: 20px;
+}
+.plans .plan {
+  width: 30%;
+  background-color: yellow;
+  margin-bottom: 15px;
+  border: 2px solid orange;
+  padding: 20px;
+  border-radius: 8px;
+}
